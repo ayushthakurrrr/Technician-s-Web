@@ -8,6 +8,7 @@
 
 import React from 'react';
 import '../css/services.css'; 
+import '../App.css'; 
 import ApplianceCard from '../components/Appliance-Card'; 
 import { useNavigate } from 'react-router-dom';
 
@@ -49,7 +50,7 @@ const Services = () => {
       </div>
 
       <button className="blue-btn" onClick={() => navigate('/about')}>
-        About Us
+        About us...
       </button>
     </div>
   );
