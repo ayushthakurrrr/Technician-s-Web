@@ -1,7 +1,7 @@
 import React from 'react';
-import './appliance-card.css';
+import '../css/appliance-card.css';
 
-const CardComponent = ({ id, name, image, onClick }) => {
+const ApplianceCard = ({ id, name, image, onClick }) => {
   return (
     <div className="card" onClick={onClick}>
       <img src={image} alt={name} className="card-image" />
@@ -10,4 +10,4 @@ const CardComponent = ({ id, name, image, onClick }) => {
   );
 };
 
-export default CardComponent;
+export default ApplianceCard;
