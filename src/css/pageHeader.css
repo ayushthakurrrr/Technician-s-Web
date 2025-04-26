@@ -1,4 +1,4 @@
-.page-header {
+/* .page-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,4 +23,35 @@
 
 .header-placeholder {
   visibility: hidden;
+} */
+.page-header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  margin-bottom: 0; /* Removed extra margin */
+  border-bottom: 1px solid black;
+  font-family: 'Outfit', sans-serif;
+  position: relative; /* To allow absolute positioning of the back icon */
+  width: 100%; /* Ensure the header container spans the full width */
 }
+
+.back-icon {
+  width: 33px;
+  height: 33px;
+  cursor: pointer;
+  position: absolute; /* Position the back icon on the left */
+  left: 16px; /* Give some space from the left */
+}
+
+.header-title {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  width: 100%; /* Make sure the title takes up the available space */
+  flex-grow: 1;
+}
+
+.header-placeholder {
+  visibility: hidden;
+}
+
