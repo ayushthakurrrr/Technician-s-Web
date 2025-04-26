@@ -61,7 +61,7 @@ const About = () => {
   };
 
   const handleInstagramClick = () => {
-    window.open("https://www.instagram.com/your-instagram-profile", "_blank");
+    window.open("https://www.instagram.com/ashservices.space/?igsh=MWNocWYzYjdqZmdweA%3D%3D#", "_blank");
   };
 
   const handleBackClick = () => {
