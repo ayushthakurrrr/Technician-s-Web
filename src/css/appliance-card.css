@@ -1,0 +1,62 @@
+/* appliance-card.css */
+
+.card {
+  background: #ffffff;
+  border: 1px solid #797878;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 480px; /* Set a max width for the card */
+}
+@media screen and (max-width: 768px) {
+  .card {
+    margin: 1.25rem auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card {
+    padding: 1.5rem 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    min-height: 270px; /* 👈 enough for single-line and two-line text */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  max-width: 360px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.card-name {
+  font-size: 1.875rem;
+  font-weight: 400;
+  color: #333333;
+  margin-top: auto; /* push name to bottom if image resizes */
+}
+
+/* Optional - Make sure images never overflow weirdly */
+.card img {
+  display: block;
+}

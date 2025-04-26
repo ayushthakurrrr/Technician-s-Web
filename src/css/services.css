@@ -1,0 +1,68 @@
+/* services.css */
+
+.homepage-container {
+  max-width: 1280px;
+  margin: 0 auto 4rem auto;
+  /* padding: 2rem 1rem; */
+  font-family: "Outfit", sans-serif, "Segoe UI";
+}
+
+/* Heading styles */
+.main-heading {
+  font-size: 3.125rem;
+  text-align: center;
+  color: #797878;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.main-heading .kanchan {
+  color: #000;
+}
+.main-heading .refrigeration {
+  color: #000;
+  font-weight: 700;
+}
+
+.separator-line {
+  width: 95vw;
+  margin: 0.5rem auto 1.5rem;
+  border: 0;
+  border-top: 2px solid #797878;
+}
+
+.sub-text {
+  font-size: 1.325rem;
+  text-align: center;
+  color: #797878;
+  margin-bottom: 2rem;
+}
+
+/* Cards grid layout */
+/* new code */
+.cards-wrapper {
+  margin: 0 auto 3rem auto;
+}
+@media screen and (max-width: 768px) {
+  .cards-wrapper {
+    margin: 0 2rem 3rem 2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cards-wrapper {
+    max-width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 3rem;
+    place-items: center;
+  }
+  .cards-wrapper > *:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cards-wrapper {
+    margin: 0 auto 3rem auto;
+  }
+}
