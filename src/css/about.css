@@ -1,0 +1,72 @@
+/* About.css */
+.about-container {
+    padding: 1rem;
+    background-color: #fff;
+    color: #000;
+    font-family: sans-serif;
+  }
+  
+  .about-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .back-arrow {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .about-header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .separator {
+    margin: 1rem 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  .profile-section {
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+    margin-bottom: 0.5rem;
+  }
+  
+  .work-title {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .description-section p {
+    text-align: justify;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .image-block {
+    text-align: center;
+  }
+  
+  .logo-img {
+    width: 120px;
+    height: auto;
+    margin-top: 1rem;
+  }
+  
+  .image-caption {
+    font-size: 0.85rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
