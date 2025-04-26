@@ -1,0 +1,112 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #91FFF4;
+    /* min-height: 100vh; */
+    /* min-height: 830px; */
+    min-height: 100vh;
+    /* padding: 20px; */
+  }
+  
+  .home-content {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .title {
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-text {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #797878;
+    font-family: Outfit;
+  }
+  
+  .kanchan-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    color: #000;
+    font-family: Outfit;
+  }
+  
+  .kanchan-title span {
+    font-weight: 900;
+  }
+  
+  .center-image {
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .home-services-button {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 25px;
+    font-size: 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 20px auto;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .home-services-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .loading-animation {
+    width: 50px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .description-text {
+    font-size: 1.5rem;
+    color: #000;
+    margin-top: 10px;
+    font-family: Outfit;
+
+  }
+  
+  .samsung-logo {
+    width: 255px;
+    height: 52px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Responsive Design */
+  @media screen and (min-width: 768px) {
+    .home-content {
+      max-width: 600px;
+    }
+  
+    .kanchan-title {
+      font-size: 2.5rem;
+    }
+  
+    .home-services-button {
+      font-size: 1.2rem;
+      padding: 12px 35px;
+    }
+  
+    .description-text {
+      font-size: 1rem;
+    }
+
+    .home-container {
+        min-height: 770px;
+      }
+  }
+  
