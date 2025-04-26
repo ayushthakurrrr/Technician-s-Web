@@ -27,7 +27,7 @@ const Services = () => {
   return (
     <div className="homepage-container">
       <PageHeader title="Home Page" />
-      <h1 className="main-heading">Welcome to Kanchan Technician</h1>
+      <h1 className="main-heading">Welcome to Kanchan Refrigeration</h1>
       
       <hr className="separator-line" />
 

@@ -23,7 +23,7 @@ const Home = () => {
         <div className="title" onClick={handleTitleClick}>
           <p className="welcome-text">Welcome to</p>
           <h1 className="kanchan-title">
-            Kanchan <span>Technician</span>
+            Kanchan <span>Refrigeration</span>
           </h1>
         </div>
 
