@@ -45,15 +45,6 @@ const Home = () => {
           </button>
         )}
 
-        <p className="description-text">
-          Exclusive services provided by experts as technician at
-        </p>
-
-        <img
-          src="/images/samsung-logo.png"
-          alt="Samsung Logo"
-          className="samsung-logo"
-        />
       </div>
     </div>
   );
