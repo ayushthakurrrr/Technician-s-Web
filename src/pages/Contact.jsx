@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Contact.css";
+import PageHeader from "../components/PageHeader";
 // Import the external CSS file
 
 const Contact = () => {
@@ -8,6 +9,7 @@ const Contact = () => {
 
   return (
     <div className="contact-container">
+      <PageHeader title="Contact"/>
       <h1 className="contact-header">Contact</h1>
 
       <p className="connect-text">Connect via</p>
