@@ -11,6 +11,7 @@ import '../css/services.css';
 import '../App.css'; 
 import ApplianceCard from '../components/Appliance-Card'; 
 import { useNavigate } from 'react-router-dom';
+import PageHeader from '../components/PageHeader';
 
 const Services = () => {
   const navigate = useNavigate();
@@ -25,17 +26,12 @@ const Services = () => {
 
   return (
     <div className="homepage-container">
-      <div className="top-bar">Home Page</div>
-
+      <PageHeader title="Home Page" />
       <h1 className="main-heading">Welcome to Kanchan Technician</h1>
       
       <hr className="separator-line" />
 
       <p className="sub-text">Service for any brand available</p>
-      <p className="sub-text">
-        Exclusive services provided by experts as technician at
-        {/* image */}
-      </p>
 
       <div className="cards-wrapper">
         {cardData.map((card) => (

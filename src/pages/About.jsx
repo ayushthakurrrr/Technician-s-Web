@@ -1,12 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../css/About.css";
-// import samsungLogo from "../public/images/samsung-logo.png"; // replace with your path
+
 // import ashImage from "../public/images/ash-logo.png"; // replace with your path
 // import profilePic from "../public/images/profile.jpeg"; // replace with your path
 
 // Use public URLs directly
-const samsungLogo = "/images/samsung-logo.png";
+
 const ashImage = "/images/ash-logo.png";
 const profilePic = "/images/profile.jpeg";
 
@@ -39,9 +39,6 @@ const About = () => {
         </p>
 
         <div className="image-block">
-          <img src={samsungLogo} alt="Samsung Logo" className="logo-img" />
-          <p className="image-caption">Samsung Official Partner</p>
-
           <img src={ashImage} alt="ASH" className="logo-img" />
           <p className="image-caption">ASH Certified Technician</p>
         </div>
