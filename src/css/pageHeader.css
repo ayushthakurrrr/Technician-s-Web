@@ -1,0 +1,25 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid black;
+  font-family: 'Outfit', sans-serif;
+}
+
+.back-icon {
+  width: 33px;
+  height: 33px;
+  cursor: pointer;
+}
+
+.header-title {
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.header-placeholder {
+  visibility: hidden;
+}

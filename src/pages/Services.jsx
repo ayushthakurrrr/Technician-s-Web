@@ -44,7 +44,7 @@ const Services = () => {
             id={card.id}
             name={card.name}
             image={card.image}
-            onClick={() => navigate(`/${card.id}`)}
+            onClick={() => navigate(`/services/${card.id}`)}
           />
         ))}
       </div>
