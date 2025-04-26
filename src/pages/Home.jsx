@@ -4,17 +4,13 @@ import "../css/home.css";
 
 const Home = () => {
   const navigate = useNavigate();
-  const [loading, setLoading] = useState(false);
 
   const handleTitleClick = () => {
     navigate("/about");
   };
 
   const handleServiceClick = () => {
-    setLoading(true);
-    setTimeout(() => {
-      navigate("/services");
-    }, 1000); // simulate loading time
+    navigate("/services");
   };
 
   return (
@@ -33,17 +29,9 @@ const Home = () => {
           className="center-image"
         />
 
-        {loading ? (
-          <img
-            src="/images/loading-circle.png"
-            alt="Loading..."
-            className="loading-animation"
-          />
-        ) : (
-          <button className="home-services-button" onClick={handleServiceClick}>
-            Services
-          </button>
-        )}
+        <button className="home-services-button" onClick={handleServiceClick}>
+          Services
+        </button>
 
       </div>
     </div>

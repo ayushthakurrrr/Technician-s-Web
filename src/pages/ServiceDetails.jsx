@@ -26,16 +26,20 @@ const ServiceDetails = () => {
 
       <div className="pricing-section">
         {product.services.map((service, index) => (
-          <Pricing
-            key={index}
-            title={service.title}
-            description={service.description}
-            price={service.price}
-          />
+          <div key={index} className="pricing-item">
+            <Pricing
+              title={service.title}
+              description={service.description}
+              price={service.price}
+            />
+            {index !== product.services.length - 1 && (
+              <div className="pricing-separator"></div>
+            )}
+          </div>
         ))}
       </div>
 
-      <p className="note-text">Note - Any service if not availed then visiting charges of  ₹ 200/- is applicable.</p>
+      <p className="note-text">Note - Any service if not availed then visiting charges of ₹ 200/- is applicable.</p>
 
       <button className="blue-btn" onClick={() => navigate('/contact')}>
         Contact Us

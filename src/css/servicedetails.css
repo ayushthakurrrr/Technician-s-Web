@@ -1,46 +1,75 @@
 .service-details {
-    padding: 16px;
-    font-family: 'Outfit', sans-serif;
-  }
-  
-  /* Info Line */
-  .info-line {
-    font-size: 17px;
-    font-weight: 400;
-    color: #797878;
-    text-align: center;
-    line-height: 22px;
-    margin-top: 16px;
-  }
-  
-  /* Pricing List */
+  padding: 16px;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Info Line */
+.info-line {
+  font-size: 17px;
+  font-weight: 400;
+  color: #797878;
+  text-align: center;
+  line-height: 22px;
+  margin-top: 16px;
+}
+
+/* Pricing List */
+.pricing-section {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+
+.pricing-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-separator {
+  height: 2px;
+  background-color: #797878;
+  margin: 20px 0;
+}
+
+/* Note Text */
+.note-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #797878;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Contact Button */
+.contact-button {
+  margin: 20px auto 0;
+  display: block;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
   .pricing-section {
-    margin-top: 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
   }
-  
-  /* Note Text */
-  .note-text {
-    font-size: 20px;
-    font-weight: 700;
-    color: #797878;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+
+  .pricing-separator {
+    display: none;
   }
-  
-  /* Contact Button */
-  .contact-button {
-    margin: 20px auto 0;
-    display: block;
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+
+  .pricing-item {
+    width: calc(50% - 20px);
+    /* Two items per row */
   }
-  
+}
