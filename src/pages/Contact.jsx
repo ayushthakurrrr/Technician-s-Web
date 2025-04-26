@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <PageHeader title="Contact"/>
-      <h1 className="contact-header">Contact</h1>
+      {/* <h1 className="contact-header">Contact</h1> */}
 
       <p className="connect-text">Connect via</p>
 
@@ -31,6 +31,8 @@ const Contact = () => {
           Call
         </a>
       </div>
+
+      <hr className="divider-line" />
 
       <p className="urgent-text">
         Any urgent service availed after 
