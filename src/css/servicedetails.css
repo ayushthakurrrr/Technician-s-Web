@@ -1,6 +1,6 @@
 .service-details {
   padding: 16px;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 /* Info Line */
@@ -72,4 +72,8 @@
     width: calc(50% - 20px);
     /* Two items per row */
   }
+}
+
+.page-header {
+  margin-bottom: 1.5rem;
 }
