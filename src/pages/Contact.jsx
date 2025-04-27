@@ -4,8 +4,8 @@ import PageHeader from "../components/PageHeader";
 // Import the external CSS file
 
 const Contact = () => {
-  const whatsappNumber = "+919999999999"; // Replace with actual number
-  const phoneNumber = "+919999999999";   // Replace with actual number
+  const whatsappNumber = "+916265317106"; // Replace with actual number
+  const phoneNumber = "+916265317106";   // Replace with actual number
 
   return (
     <div className="contact-container">
@@ -39,12 +39,12 @@ const Contact = () => {
         8 P.M will be charged
         more as premium fee.</p>
 
-        {/* 🖼️ Add Developer Logo at the bottom */}
+        {/* 🖼️ Add Developer Logo at the bottom
       <img
         src="/images/ash-logo.png"
         alt="Developer Logo"
         className="developer-logo"
-      />
+      /> */}
     </div>
   );
 };

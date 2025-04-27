@@ -94,10 +94,18 @@
 }
 
 .urgent-text {
+
+  width: 283px;
+  height: 75px;
   margin-top: 2rem;
   font-size: 0.875rem;
-  color: #555;
-  font-style: italic;
+  color:rgba(121, 120, 120, 1);
+  font-family:'Outfit',sans-serif;
+  left: 76px;
+  font-weight: 400;
+  size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 /* Divider Line */
@@ -110,7 +118,7 @@
 
 .developer-logo {
   width: 130px;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
   opacity: 0.9;
 }
