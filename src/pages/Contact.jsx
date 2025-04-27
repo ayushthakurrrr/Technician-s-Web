@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Contact.css";
+import "../css/contact.css";
 import PageHeader from "../components/PageHeader";
 // Import the external CSS file
 
