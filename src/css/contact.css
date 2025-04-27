@@ -107,3 +107,10 @@
   border-top: 1px solid black;
   margin: 5rem 0 0rem 0; /* Top and bottom margin for gap */
 }
+
+.developer-logo {
+  width: 130px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}

@@ -38,6 +38,13 @@ const Contact = () => {
         Any urgent service availed after 
         8 P.M will be charged
         more as premium fee.</p>
+
+        {/* 🖼️ Add Developer Logo at the bottom */}
+      <img
+        src="/images/ash-logo.png"
+        alt="Developer Logo"
+        className="developer-logo"
+      />
     </div>
   );
 };
