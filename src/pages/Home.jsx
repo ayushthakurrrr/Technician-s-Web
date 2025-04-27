@@ -1,22 +1,13 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React from "react";
 import "../css/home.css";
+import Loader from "../components/Loader";
 
 const Home = () => {
-  const navigate = useNavigate();
-
-  const handleTitleClick = () => {
-    navigate("/about");
-  };
-
-  const handleServiceClick = () => {
-    navigate("/services");
-  };
 
   return (
     <div className="home-container">
       <div className="home-content">
-        <div className="title" onClick={handleTitleClick}>
+        <div className="title">
           <p className="welcome-text">Welcome to</p>
           <h1 className="kanchan-title">
             Kanchan <span>Refrigeration</span>
@@ -29,9 +20,7 @@ const Home = () => {
           className="center-image"
         />
 
-        <button className="home-services-button" onClick={handleServiceClick}>
-          Services
-        </button>
+        <Loader/>
 
       </div>
     </div>
