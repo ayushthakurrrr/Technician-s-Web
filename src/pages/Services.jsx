@@ -1,10 +1,3 @@
-// import React from "react";
-
-// const Services = () => {
-//   return <h1>Services Page</h1>;
-// };
-
-// export default Services;
 
 import React from 'react';
 import '../css/services.css'; 
@@ -26,7 +19,7 @@ const Services = () => {
 
   return (
     <div className="homepage-container">
-      <PageHeader title="Home Page" />
+      <PageHeader title="Services" />
       <h1 className="main-heading">Welcome to <span class="kanchan">Kanchan</span> <span class="refrigeration">Refrigeration</span></h1>
       
       <hr className="separator-line"/>
