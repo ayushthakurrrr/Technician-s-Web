@@ -52,6 +52,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // Import navigation hook
 import "../css/about.css";
+import PageHeader from "../components/PageHeader"; // Import custom header component
 
 const About = () => {
   const navigate = useNavigate(); // Initialize navigation
@@ -70,12 +71,7 @@ const About = () => {
 
   return (
     <div className="about-container">
-      <div className="about-header">
-        <span className="back-arrow" onClick={handleBackClick}>
-          &#8592;
-        </span>
-        <h2>About Us</h2>
-      </div>
+      <PageHeader title={"About Us"} />
 
       <div className="about-content">
         <p className="about-text">
