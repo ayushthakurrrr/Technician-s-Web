@@ -70,135 +70,155 @@
     margin-bottom: 1rem;
   }
    */
-*{
-font-family:Outfit ;
-/* text-align: center; */
+* {
+  font-family: Outfit;
+  /* text-align: center; */
 }
-   .about-container {
-    background-color: #ffffff;
-    min-height: 100vh;
-    padding: 20px;
-  }
-  
-  .about-header {
-    display: flex;
-    align-items: center;
-    gap: 100px;
-  }
-  
-  .back-arrow {
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
+.about-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.back-arrow {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.about-content {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.owner-name {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+  color: #000;
+}
+
+.owner-subtitle {
+  font-size: 1.5rem;
+  margin: 5px 10px;
+  text-align: end;
+  color: #666;
+}
+
+.owner-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 0px 10px;
+  text-align: end;
+  margin-bottom: 30px;
+  padding-inline-start: 44px;
+}
+
+.follow-us p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.instagram-icon {
+  width: 4.75rem;
+  cursor: pointer;
+}
+
+.divider {
+  margin: 20px auto;
+  width: 90%;
+  border: 0.5px solid #585050;
+}
+
+.developer-section {
+  text-align: center;
+  cursor: pointer;
+  color: #000;
+}
+
+.developer-text {
+  font-size: 1.25rem;
+}
+
+.ash-logo {
+  /* width: 300px;
+  /* margin: 10px 0; */
+  /* padding: 10px; */
+  font-size: 7rem;
+  font-weight: 700;
+  margin: -1rem auto 0 auto;
+}
+
+.developer-subtext {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: -1.5rem;
+}
+
+.connect-link-text,
+.feedback-link-text {
+  color: #797878;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.connect-feedback-section {
+  margin-top: 2rem;
+}
+
+.connect-link-text a,
+.feedback-link-text a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+/* Responsive Design */
+@media screen and (min-width: 768px) {
   .about-content {
-    margin-top: 20px;
-    text-align: center;
+    max-width: 600px;
+    margin: 30px auto;
   }
-  
+
   .about-text {
-    font-size: 1.5rem;
-    line-height: 1.6;
-    color: #333;
-    margin-bottom: 30px;
-    font-weight: 400;
-    text-align: center;
+    font-size: 1.1rem;
   }
-  
+  .about-header {
+    gap: 35rem;
+  }
+
   .owner-name {
-    font-weight: bold;
-    font-size: 2rem;
-    margin: 0;
-    color: #000;
-  }
-  
-  .owner-subtitle {
     font-size: 1.5rem;
-    margin: 5px 10px;
     text-align: end;
-    color: #666;
   }
-  
+
+  .owner-subtitle,
   .owner-description {
-    font-size: 1.2rem;
-    color: #666;
-    margin: 0px 10px;
-    text-align: end;
-    margin-bottom: 30px;
-    padding-inline-start: 44PX;
+    font-size: 1rem;
   }
-  
-  .follow-us p {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+  .owner-description {
+    padding-inline-start: 300px;
   }
-  
-  .instagram-icon {
-    width: 100px;
-    cursor: pointer;
+
+  .ash-logo {
+    width: 320px;
   }
-  
-  .divider {
-    margin: 20px auto;
-    width: 90%;
-    border: 0.5px solid #585050;
-  }
-  
-  .developer-section {
-    text-align: center;
-    cursor: pointer;
-  }
-  
-  .developer-text {
-    font-size: 0.8rem;
-    color: #777;
-  }
-  
-  .developer-logo {
-    width: 300px;
-    /* margin: 10px 0; */
-    padding: 10px;
-  }
-  
-  .developer-subtext {
-    font-size: 0.7rem;
-    color: #999;
-  }
-  
-  /* Responsive Design */
-  @media screen and (min-width: 768px) {
-    .about-content {
-      max-width: 600px;
-      margin: 30px auto;
-    }
-    
-    .about-text {
-      font-size: 1.1rem;
-    }
-    .about-header {
-     gap: 35rem;
-  }
-  
-    .owner-name {
-      font-size: 1.5rem;
-      text-align: end;
-    }
-  
-    .owner-subtitle,
-    .owner-description {
-      font-size: 1rem;
-    }
-    .owner-description{
-      padding-inline-start: 300px;
-    }
-  
-    .developer-logo {
-      width: 320px;
-    }
   /* .about-content {
     text-align: end;
 } */
-
-
-  }
-  
+}
