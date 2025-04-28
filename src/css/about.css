@@ -141,7 +141,7 @@
 .divider {
   margin: 20px auto;
   width: 90%;
-  border: 0.5px solid #585050;
+  border: 1px solid #797878;
 }
 
 .developer-section {
@@ -188,6 +188,16 @@
   font-size: 1.25rem;
 }
 
+.brands-text {
+  font-size: 1.5625rem;
+  font-weight: 400;
+  color: #797878;
+  margin-bottom: 1rem;
+}
+.brands-logo {
+  width: 28rem;
+}
+
 /* Responsive Design */
 @media screen and (min-width: 768px) {
   .about-content {
@@ -221,4 +231,7 @@
   /* .about-content {
     text-align: end;
 } */
+  .developer-section {
+    margin: 2rem auto;
+  }
 }

@@ -49,30 +49,39 @@ const About = () => {
             onClick={handleInstagramClick}
           />
         </div>
+      </div>
+      <hr className="divider" />
 
-        <hr className="divider" />
-
-        <div className="developer-section" onClick={handleWebsiteClick}>
-          <p className="developer-text">Built for growth by</p>
-          {/* <img
+      <div className="developer-section" onClick={handleWebsiteClick}>
+        <p className="developer-text">Built for growth by</p>
+        {/* <img
             src="/images/ash-logo.png"
             alt="ash. Logo"
             className="ash-logo"
-          /> */}
-          <p className="ash-logo">ash.</p>
-          <p className="developer-subtext">
-            redefining the aspects of your digital requirements...
+        /> */}
+        <p className="ash-logo">ash.</p>
+        <p className="developer-subtext">
+          redefining the aspects of your digital requirements...
+        </p>
+        <div className="connect-feedback-section">
+          <p className="connect-link-text">
+            Click <a href="https://ashservices.space" target="_blank">HERE</a> to connect to us.
           </p>
-          <div className="connect-feedback-section">
-            <p className="connect-link-text">
-              Click <a href="https://ashservices.space" target="_blank">HERE</a> to connect to us.
-            </p>
-            <p className="feedback-link-text">
-              Send us your feedback <a href="ashservices.space/feedback" target="_blank">HERE</a>.
-            </p>
-          </div>
+          <p className="feedback-link-text">
+            Send us your feedback <a href="ashservices.space/feedback" target="_blank">HERE</a>.
+          </p>
         </div>
       </div>
+
+      <hr className="divider" />
+
+      <div className="brands-image-section">
+        <p className="brands-text">Service available for any brand.</p>
+        <div className="brands-images">
+          <img src="/images/brands-logo.png" alt="Brands" className="brands-logo" />
+        </div>
+      </div>
+
     </div>
   );
 };
