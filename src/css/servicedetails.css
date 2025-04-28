@@ -1,5 +1,6 @@
 .service-details {
   padding: 16px;
+  margin-bottom: 50px;
   font-family: "Outfit", sans-serif;
 }
 
@@ -62,6 +63,7 @@
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
+    margin-left: 50px;
   }
 
   .pricing-separator {

@@ -1,22 +1,23 @@
 import React from "react";
 import "../css/contact.css";
 import PageHeader from "../components/PageHeader";
+import { useParams } from 'react-router-dom'
 // Import the external CSS file
 
 const Contact = () => {
   const whatsappNumber = "+916265317106"; // Replace with actual number
   const phoneNumber = "+916265317106";   // Replace with actual number
-
+  const { id } = useParams();
   return (
     <div className="contact-container">
-      <PageHeader title="Contact"/>
+      <PageHeader title="Contact" />
       {/* <h1 className="contact-header">Contact</h1> */}
 
       <p className="connect-text">Connect via</p>
 
       <div className="button-group">
         <a
-          href={`https://wa.me/${whatsappNumber}`}
+          href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Hi, I need repair or servicing for my ${id}. Kindly contact me to discuss further. Thanks!`)}`}
           className="contact-button whatsapp-button"
           target="_blank"
           rel="noopener noreferrer"
@@ -35,11 +36,11 @@ const Contact = () => {
       <hr className="divider-line" />
 
       <p className="urgent-text">
-        Any urgent service availed after 
+        Any urgent service availed after
         8 P.M will be charged
         more as premium fee.</p>
 
-        {/* 🖼️ Add Developer Logo at the bottom
+      {/* 🖼️ Add Developer Logo at the bottom
       <img
         src="/images/ash-logo.png"
         alt="Developer Logo"
