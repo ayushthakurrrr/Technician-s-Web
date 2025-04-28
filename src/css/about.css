@@ -105,11 +105,23 @@
   text-align: center;
 }
 
+.owner-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center image and name horizontally */
+}
+
+.owner-image {
+  margin-bottom: 1.5rem;
+  /* padding-right: 0.4rem; */
+}
+
 .owner-name {
   font-weight: bold;
   font-size: 2rem;
   margin: 0;
   color: #000;
+  text-align: end;
 }
 
 .owner-subtitle {
@@ -195,7 +207,8 @@
   margin-bottom: 1rem;
 }
 .brands-logo {
-  width: 28rem;
+  width: 80vw;
+  max-width: 28rem;
 }
 
 /* Responsive Design */
@@ -212,14 +225,22 @@
     gap: 35rem;
   }
 
+  .owner-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
   .owner-name {
     font-size: 1.5rem;
     text-align: end;
   }
 
-  .owner-subtitle,
+  .owner-subtitle {
+    font-size: 1.5625rem;
+  }
   .owner-description {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   .owner-description {
     padding-inline-start: 300px;
@@ -227,6 +248,9 @@
 
   .ash-logo {
     width: 320px;
+  }
+  .brands-logo {
+    width: 28rem;
   }
   /* .about-content {
     text-align: end;

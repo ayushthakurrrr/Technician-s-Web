@@ -33,8 +33,13 @@ const About = () => {
           customers can now book confidently and expect reliable help, every time.
           We’re not just fixing appliances—we’re fixing the service experience.
         </p>
-
-        <p className="owner-name">-Priyansh Kanchan</p>
+        <div className="owner-profile">
+          <div className="owner-image-container">
+            <img src="/images/client-profile-picture.png" alt="Owner" className="owner-image" />  
+          </div>
+          <p className="owner-name">-Priyansh Kanchan</p>
+        </div>
+        <p className="owner-subtitle">Owner</p>
         <p className="owner-subtitle">Works at Samsung</p>
         <p className="owner-description">
           Skilled home appliance and refrigeration technician
