@@ -41,7 +41,14 @@ const Services = () => {
 
       <hr className="separator-line" />
 
-      <p className="sub-text">Service for any brand available</p>
+      {/* <p className="sub-text">Service for any brand available</p> */}
+
+      <div className="brands-image-section">
+        <p className="brands-text">Service available for any brand.</p>
+        <div className="brands-images">
+          <img src="/images/brands-logo.png" alt="Brands" className="brands-logo" />
+        </div>
+      </div>
 
       <div className="cards-wrapper">
         {cardData.map((card) => (

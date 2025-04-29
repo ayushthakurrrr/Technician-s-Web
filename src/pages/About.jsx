@@ -78,15 +78,6 @@ const About = () => {
         </div>
       </div>
 
-      <hr className="divider" />
-
-      <div className="brands-image-section">
-        <p className="brands-text">Service available for any brand.</p>
-        <div className="brands-images">
-          <img src="/images/brands-logo.png" alt="Brands" className="brands-logo" />
-        </div>
-      </div>
-
     </div>
   );
 };

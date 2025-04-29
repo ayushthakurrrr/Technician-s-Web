@@ -30,12 +30,27 @@
   border: 0;
   border-top: 2px solid #797878;
 }
-
+/* 
 .sub-text {
   font-size: 1.325rem;
   text-align: center;
   color: #797878;
   margin-bottom: 2rem;
+} */
+
+.brands-image-section {
+  margin-bottom: 2rem;
+}
+.brands-text {
+  font-size: 1.5625rem;
+  font-weight: 400;
+  text-align: center;
+  color: #797878;
+  margin-bottom: 1rem;
+}
+.brands-logo {
+  width: 80vw;
+  max-width: 28rem;
 }
 
 /* Cards grid layout */
