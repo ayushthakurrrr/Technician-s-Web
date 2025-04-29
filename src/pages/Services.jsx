@@ -36,7 +36,7 @@ const Services = () => {
 
   return (
     <div className="homepage-container">
-      <PageHeader title="Home Page" />
+      <PageHeader title="Home Page" showBackIcon={false}/>
       <h1 className="main-heading">Welcome to <span className="kanchan">Kanchan</span> <span className="refrigeration">Refrigeration</span></h1>
 
       <hr className="separator-line" />
