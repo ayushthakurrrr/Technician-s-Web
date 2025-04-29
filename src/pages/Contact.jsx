@@ -13,7 +13,7 @@ const Contact = () => {
       <PageHeader title="Contact" />
       {/* <h1 className="contact-header">Contact</h1> */}
 
-      <p className="connect-text">Connect via</p>
+      <p className="connect-text"><b>Connect via</b></p>
 
       <div className="button-group">
         <a
@@ -36,8 +36,11 @@ const Contact = () => {
       <hr className="divider-line" />
 
       <p className="urgent-text">
-        Any urgent service availed after
-        8 P.M will be charged
+        <b>Note -</b><br/> 
+        Any service if not availed  <br/>
+        then visiting charges  of ₹ 200/-is applicable.<br/>
+        Any urgent service availed after<br/>
+        8 P.M will be charged<br/>
         more as premium fee.</p>
 
       {/* 🖼️ Add Developer Logo at the bottom
