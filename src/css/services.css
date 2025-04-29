@@ -75,6 +75,9 @@
     grid-column: 1 / -1;
     justify-self: center;
   }
+  .brands-logo {
+    width: 28rem;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .cards-wrapper {
