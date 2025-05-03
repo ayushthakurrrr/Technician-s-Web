@@ -83,7 +83,7 @@
   background-color: #128C7E; /* Hover background color for WhatsApp */
   color: black; /* Font color remains black on hover */
   border-color: black; /* Ensure black border remains */
-  transform: scale(1.05); /* Slight zoom on hover */
+  transform: scale(1); /* Slight zoom on hover */
 }
 
 .call-button {
@@ -98,7 +98,7 @@
 
 .call-button:hover {
   background-color: rgba(255, 255, 255, 1); /* Hover color change */
-  transform: scale(1.05); /* Slight zoom on hover */
+  transform: scale(1); /* Slight zoom on hover */
 }
 
 .urgent-text {
