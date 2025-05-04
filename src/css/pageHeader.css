@@ -45,7 +45,7 @@
 
 .header-title {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   width: 100%; /* Make sure the title takes up the available space */
   flex-grow: 1;
