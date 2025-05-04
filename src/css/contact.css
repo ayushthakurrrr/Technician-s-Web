@@ -1,10 +1,13 @@
 /* Contact.css */
 .contact-container {
-  position: relative; /* Important for absolute children */
+  position: relative;
+  /* Important for absolute children */
   min-height: 100vh;
   padding: 1rem;
-  background-color: #ffffff; /* still white */
-  color: #000000; /* still black */
+  background-color: #ffffff;
+  /* still white */
+  color: #000000;
+  /* still black */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,7 +29,8 @@
 
 .connect-text {
   position: absolute;
-  top: 150px; /* Start from 255px from the top */
+  top: 150px;
+  /* Start from 255px from the top */
   width: 263px;
   height: 63px;
   font-size: 30px;
@@ -36,6 +40,7 @@
   font-family: 'Outfit', sans-serif;
   text-align: center;
 }
+
 .button-group {
   margin-top: 120px;
   display: flex;
@@ -49,48 +54,62 @@
   text-align: center;
   padding: 0.75rem;
   border-radius: 30px;
-  color: black; /* Black font color */
+  color: black;
+  /* Black font color */
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 2px solid black; /* Black border color */
-  transition: background-color 0.3s, transform 0.3s; /* Smooth hover transition */
+  border: 2px solid black;
+  /* Black border color */
+  /* transition: background-color 0.3s, transform 0.3s; Smooth hover transition */
   width: 220px;
   height: 64px;
   position: relative;
-  font-family: 'Outfit', sans-serif; /* Font family as per your Figma details */
+  font-family: 'Outfit', sans-serif;
+  /* Font family as per your Figma details */
 }
 
 .whatsapp-button {
-  font-family: 'Outfit', sans-serif; /* Font family */
-  font-weight: 400; /* Font weight */
-  font-size: 30px; /* Font size */
-  line-height: 100%; /* Line height */
-  letter-spacing: 0%; /* Letter spacing */
-  background-color: rgba(18, 140, 126, 1); /* Background color as specified */
+  font-family: 'Outfit', sans-serif;
+  /* Font family */
+  font-weight: 400;
+  /* Font weight */
+  font-size: 30px;
+  /* Font size */
+  line-height: 100%;
+  /* Line height */
+  letter-spacing: 0%;
+  /* Letter spacing */
+  background-color: rgba(18, 140, 126, 1);
+  /* Background color as specified */
 }
 
-.whatsapp-button:hover {
-  background-color: #128C7E; /* Hover background color for WhatsApp */
-  color: black; /* Font color remains black on hover */
-  border-color: black; /* Ensure black border remains */
-  transform: scale(1.05); /* Slight zoom on hover */
-}
+/* .whatsapp-button:hover { */
+/* background-color: #128C7E; Hover background color for WhatsApp */
+/* color: black; Font color remains black on hover */
+/* border-color: black; Ensure black border remains */
+/* transform: scale(1.05); Slight zoom on hover */
+/* } */
 
 .call-button {
   background-color: rgba(255, 255, 255, 1);
-  font-family: 'Outfit', sans-serif; /* Font family */
-  font-weight: 400; /* Font weight */
-  font-size: 30px; /* Font size */
-  line-height: 100%; /* Line height */
-  letter-spacing: 0%; /* Letter spacing */
-  ;
+  font-family: 'Outfit', sans-serif;
+  /* Font family */
+  font-weight: 400;
+  /* Font weight */
+  font-size: 30px;
+  /* Font size */
+  line-height: 100%;
+  /* Line height */
+  letter-spacing: 0%;
+  /* Letter spacing */
+
 }
 
 .call-button:hover {
-  background-color: rgba(255, 255, 255, 1); /* Hover color change */
-  transform: scale(1.05); /* Slight zoom on hover */
+  /* background-color: rgba(255, 255, 255, 1); Hover color change */
+  /* transform: scale(1.05); Slight zoom on hover */
 }
 
 .urgent-text {
@@ -99,8 +118,8 @@
   height: 75px;
   margin-top: 2rem;
   font-size: 0.875rem;
-  color:rgba(121, 120, 120, 1);
-  font-family:'Outfit',sans-serif;
+  color: rgba(121, 120, 120, 1);
+  font-family: 'Outfit', sans-serif;
   left: 76px;
   font-weight: 400;
   size: 20px;
@@ -113,7 +132,8 @@
   width: 90%;
   border: none;
   border-top: 1px solid black;
-  margin: 5rem 0 0rem 0; /* Top and bottom margin for gap */
+  margin: 5rem 0 0rem 0;
+  /* Top and bottom margin for gap */
 }
 
 .developer-logo {

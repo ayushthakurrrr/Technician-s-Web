@@ -17,6 +17,7 @@ const Services = () => {
     { id: 'washing-machine', name: 'Washing Machine', image: '/images/washing-machine.png' },
     { id: 'water-purifier', name: 'Water Purifier', image: '/images/water-purifier.png' },
     { id: 'microwave', name: 'Microwave Oven', image: '/images/microwave.png' },
+    {id: 'tv', name: 'Televisions', image: '/images/image.png'}
   ];
 
   useEffect(() => {

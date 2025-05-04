@@ -39,7 +39,6 @@ const ServiceDetails = () => {
         ))}
       </div>
 
-      <p className="note-text">Note - Any service if not availed then visiting charges of ₹ 200/- is applicable.</p>
 
       <button className="blue-btn" onClick={() => navigate(`/contact/${id}`)}>
         Contact Us

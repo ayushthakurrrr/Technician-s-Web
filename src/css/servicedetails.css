@@ -17,6 +17,7 @@
 /* Pricing List */
 .pricing-section {
   margin-top: 24px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   /* gap: 20px; */

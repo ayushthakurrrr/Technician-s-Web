@@ -32,7 +32,7 @@ const products = [
             {
                 title: 'Checkup',
                 description: '*Includes checking the appliance.',
-                price: 'Cost vary as per scenario.',
+                price: 'costs are subject to scenario.',
             }
         ],
     },
@@ -49,7 +49,7 @@ const products = [
             {
                 title: 'Checkup',
                 description: '*Includes checking the appliance.',
-                price: 'Cost vary as per scenario.',
+                price: 'costs are subject to scenario.',
             }
         ],
     },
@@ -61,7 +61,7 @@ const products = [
             {
                 title: 'Checkup',
                 description: '*Includes checking the appliance.',
-                price: 'Cost vary as per scenario.',
+                price: 'costs are subject to scenario.',
             }
         ],
     },
@@ -73,7 +73,7 @@ const products = [
             {
                 title: 'Checkup',
                 description: '*Includes checking the appliance.',
-                price: 'Cost vary as per scenario.',
+                price: 'costs are subject to scenario.',
             }
         ],
     },
@@ -85,7 +85,19 @@ const products = [
             {
                 title: 'Checkup',
                 description: '*Includes checking the appliance.',
-                price: 'Cost vary as per scenario.',
+                price: 'costs are subject to scenario.',
+            }
+        ],
+    },
+    {
+        id: 'tv',
+        name: 'Televisions',
+        image: '/images/image.png',
+        services: [
+            {
+                title: 'Checkup',
+                description: '*Includes checking the appliance.',
+                price: 'Costs are subject to scenario.',
             }
         ],
     },
