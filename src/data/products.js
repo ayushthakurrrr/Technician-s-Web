@@ -32,7 +32,7 @@ const products = [
             {
                 title: 'Checkup',
                 description: '*Includes checking the appliance.',
-                price: 'costs are subject to scenario.',
+                price: 'Costs are subject to scenario.',
             }
         ],
     },
@@ -49,7 +49,7 @@ const products = [
             {
                 title: 'Checkup',
                 description: '*Includes checking the appliance.',
-                price: 'costs are subject to scenario.',
+                price: 'Costs are subject to scenario.',
             }
         ],
     },
@@ -61,7 +61,7 @@ const products = [
             {
                 title: 'Checkup',
                 description: '*Includes checking the appliance.',
-                price: 'costs are subject to scenario.',
+                price: 'Costs are subject to scenario.',
             }
         ],
     },
@@ -73,7 +73,7 @@ const products = [
             {
                 title: 'Checkup',
                 description: '*Includes checking the appliance.',
-                price: 'costs are subject to scenario.',
+                price: 'Costs are subject to scenario.',
             }
         ],
     },
@@ -85,7 +85,7 @@ const products = [
             {
                 title: 'Checkup',
                 description: '*Includes checking the appliance.',
-                price: 'costs are subject to scenario.',
+                price: 'Costs are subject to scenario.',
             }
         ],
     },

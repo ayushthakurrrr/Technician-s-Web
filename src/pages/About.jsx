@@ -13,7 +13,7 @@ const About = () => {
   };
 
   const handleInstagramClick = () => {
-    window.open("https://www.instagram.com/ashservices.space/?igsh=MWNocWYzYjdqZmdweA%3D%3D#", "_blank");
+    window.open("https://www.instagram.com/kanchanrefrigeration/", "_blank");
   };
 
   const handleBackClick = () => {
@@ -35,7 +35,7 @@ const About = () => {
         </p>
         <div className="owner-profile">
           <div className="owner-image-container">
-            <img src="/images/client-profile-picture.png" alt="Owner" className="owner-image" />  
+            <img src="/images/client-profile-picture.png" alt="Owner" className="owner-image" />
           </div>
           <p className="owner-name">-Priyansh Kanchan</p>
         </div>
@@ -68,14 +68,14 @@ const About = () => {
         <p className="developer-subtext">
           redefining the aspects of your digital requirements...
         </p>
-        <div className="connect-feedback-section">
-          <p className="connect-link-text">
-            Click <a href="https://ashservices.space" target="_blank">HERE</a> to connect to us.
-          </p>
-          <p className="feedback-link-text">
-            Send us your feedback <a href="ashservices.space/feedback" target="_blank">HERE</a>.
-          </p>
-        </div>
+      </div>
+      <div className="connect-feedback-section">
+        <p className="connect-link-text">
+          Click <a href="https://ashservices.space" target="_blank">HERE</a> to connect to us.
+        </p>
+        <p className="feedback-link-text">
+          Send us your feedback <a href="https://ashservices.space/feedback" target="_blank">HERE</a>.
+        </p>
       </div>
 
     </div>
